@@ -1,0 +1,17 @@
+.places__link,
+.places__link:active {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  text-decoration: underline;
+  color: #FFF;
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__link {
+    margin-left: 16px;
+  }
+}

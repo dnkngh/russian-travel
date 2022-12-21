@@ -1,0 +1,12 @@
+@keyframes overlay-opacity {
+  from {
+    opacity: 30%;
+  }
+  to {
+    opacity: 80%;
+  }
+}
+
+.cover:hover .overlay-opacity {
+  animation: overlay-opacity 2s forwards;
+}
